@@ -113,7 +113,7 @@ app.delete('/api/recipes/:id', (req, res, next) => {
   );
 });
 
-app.use('/api/recipes', (req, res, next) => {
+app.get('/api/recipes', (req, res, next) => {
     Recipe.find().then(
         (recipes) => {
             res.status(200).json(recipes);
