@@ -1,6 +1,3 @@
-// MONGODB PW: dGS9NtcdO8H6IFVV
-// MONGODB CONNECTION: mongodb+srv://Maor:<password>@cluster0-rdaxc.mongodb.net/test?retryWrites=true
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
